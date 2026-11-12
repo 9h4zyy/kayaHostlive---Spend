@@ -1,0 +1,207 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Main Navigation" [ref=e3]:
+      - link "Kaya Chat Homepage" [ref=e4] [cursor=pointer]:
+        - /url: "#hero"
+        - img "Kaya Chat Logo" [ref=e5]
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: "#hero"
+        - listitem [ref=e9]:
+          - link "Host" [ref=e10] [cursor=pointer]:
+            - /url: "#host-registration"
+        - listitem [ref=e11]:
+          - link "Agent" [ref=e12] [cursor=pointer]:
+            - /url: "#host-vs-agent"
+        - listitem [ref=e13]:
+          - link "Earning" [ref=e14] [cursor=pointer]:
+            - /url: "#earning-sources"
+        - listitem [ref=e15]:
+          - link "Contact" [ref=e16] [cursor=pointer]:
+            - /url: "#contact"
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "Become an Official Kaya Chat Host" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Kaya Chat is a live voice party app. People join rooms to talk, sing, laugh, and meet new friends. As a Kaya Chat host, you can host your own room, welcome people in, and earn diamonds while you do it.
+        - link "Learn More" [ref=e25] [cursor=pointer]:
+          - /url: "#what-is-host"
+      - generic [ref=e27] [cursor=pointer]:
+        - img "Become an Official Kaya Chat Host - Neon Cyber Streamer" [ref=e28]
+        - generic: Click to view
+    - generic [ref=e30]:
+      - heading "Get to Know Kaya Chat Before You Start" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: 500K+ Downloads
+          - generic [ref=e36]: On Play Store
+        - generic [ref=e37]:
+          - generic [ref=e38]: 2K+ Reviews
+          - generic [ref=e39]: On Play Store
+    - generic [ref=e41]:
+      - heading "What Is Kaya Chat & What Does a Host Do?" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: Kaya Chat is a live voice party app. You can drop into voice rooms, meet people, send virtual gifts, earn coins, and climb the leaderboards. Anyone can join. Becoming a host is where it gets interesting.
+          - paragraph [ref=e47]: A Kaya Chat host is a user who takes part in live voice rooms and can host conversations of their own. Hosts welcome people into the room, chat, sing, and interact with participants.
+        - generic [ref=e49] [cursor=pointer]:
+          - img "Kaya - Host Role" [ref=e50]
+          - generic: Click to view
+    - generic [ref=e52]:
+      - 'heading "Kaya Chat Host vs Agent: Which One Fits You?" [level=2] [ref=e54]'
+      - table [ref=e56]:
+        - rowgroup [ref=e57]:
+          - row [ref=e58]:
+            - columnheader [ref=e59]
+            - columnheader "Kaya Chat Host" [ref=e60]
+            - columnheader "Kaya Chat Agent" [ref=e61]
+        - rowgroup [ref=e62]:
+          - row [ref=e63]:
+            - cell [ref=e64]:
+              - strong [ref=e65]: Main Focus
+            - cell "Spend time on the mic, take part in host tasks, and welcome people into voice- room conversations." [ref=e66]
+            - cell "Build and manage a host team, invite hosts and sub-agents, and support team activity." [ref=e67]
+          - row [ref=e68]:
+            - cell [ref=e69]:
+              - strong [ref=e70]: Earning options
+            - cell "Mic-time rewards, the 7-Day Income Task, gift sharing, invitation rewards, and ranking bonuses." [ref=e71]
+            - cell "Agency and sub-agency commissions, game and host invitation rewards, and agency event bonuses." [ref=e72]
+          - row [ref=e73]:
+            - cell [ref=e74]:
+              - strong [ref=e75]: Best for
+            - cell "People who want to be on the mic and host their own room." [ref=e76]
+            - cell "People who prefer supporting a team from behind the scenes." [ref=e77]
+      - generic [ref=e79] [cursor=pointer]:
+        - img "Kaya - Ecosystem" [ref=e80]
+        - generic: Click to view
+      - link "Learn More About Kaya Agency kayachatagency.com" [ref=e82] [cursor=pointer]:
+        - /url: http://kayachatagency.com
+    - generic [ref=e84]:
+      - heading "How to Become a Kaya Chat Host, Step by Step" [level=2] [ref=e86]
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - generic [ref=e89]: "1"
+          - generic [ref=e90]:
+            - text: Download Kaya Chat from Google Play or the App Store, or
+            - link "open the referral link" [ref=e91] [cursor=pointer]:
+              - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+            - text: .
+        - listitem [ref=e92]:
+          - generic [ref=e93]: "2"
+          - generic [ref=e94]: Sign up with a Google account or your phone number. Google sign-up is recommended.
+        - listitem [ref=e95]:
+          - generic [ref=e96]: "3"
+          - generic [ref=e97]: Fill in the required profile information.
+        - listitem [ref=e98]:
+          - generic [ref=e99]: "4"
+          - generic [ref=e100]: Open your Profile page and tap “Become a Host.”
+        - listitem [ref=e101]:
+          - generic [ref=e102]: "5"
+          - generic [ref=e103]: Select “Real Person Verification.” Upload your own photo, tap “Start Verification,” and follow the on-screen steps. Keep your face clearly visible, with no mask, sunglasses, or camera filters.
+        - listitem [ref=e104]:
+          - generic [ref=e105]: "6"
+          - generic [ref=e106]:
+            - text: Select “Join Agency,” enter the agency invitation code
+            - generic [ref=e107]: CVK6M5
+            - text: ", then tap “Confirm.”"
+    - generic [ref=e109]:
+      - heading "Kaya Chat Host Earning Sources" [level=2] [ref=e111]
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "1"
+          - generic [ref=e115]:
+            - strong [ref=e116]: First 7 days.
+            - text: New hosts can get 8,000 diamonds for one hour on the mic per day, for up to 7 days. Claim it in the Task Center each day, or it expires.
+        - generic [ref=e117]:
+          - generic [ref=e118]: "2"
+          - generic [ref=e119]:
+            - strong [ref=e120]: Day Income Task.
+            - text: Meet the listed 7-day diamond target and the required mic hours to qualify for higher hourly rewards. Run from 600 diamonds per hour up to 250,000 at level SS.
+        - generic [ref=e121]:
+          - generic [ref=e122]: "3"
+          - generic [ref=e123]:
+            - strong [ref=e124]: Gift sharing.
+            - text: Deluxe gifts carry a 70% share. Lucky gifts carry 2% and 5%.
+        - generic [ref=e125]:
+          - generic [ref=e126]: "4"
+          - generic [ref=e127]:
+            - strong [ref=e128]: Host invitation bonus.
+            - text: Earn diamonds when hosts you invite reach income milestones within 30 days up to 80,000 diamonds.
+        - generic [ref=e129]:
+          - generic [ref=e130]: "5"
+          - generic [ref=e131]:
+            - strong [ref=e132]: Task and event rankings.
+            - text: Categories include the Weekly Agency Ranking and Hosts Ranking.
+    - generic [ref=e134]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - button "What is Kaya Chat?" [ref=e139] [cursor=pointer]
+          - generic: Kaya Chat is a live voice party app where you can join voice rooms, meet people, send virtual gifts, earn coins, and climb leaderboards. You can also host your own room.
+        - generic [ref=e144]:
+          - button "What does a Kaya Chat host do?" [ref=e145] [cursor=pointer]
+          - generic: A host takes part in live voice rooms and can host conversations of their own. Hosts welcome people in, interact with participants, and take part in host tasks, gift shares, and events.
+        - generic [ref=e150]:
+          - button "How do I become a Kaya Chat host?" [ref=e151] [cursor=pointer]
+          - generic: Download Kaya Chat, sign up, complete your profile, tap “Become a Host,” finish real-person verification, then join an agency with the invitation code CVK6M5.
+        - generic [ref=e156]:
+          - button "Do I need real-person verification?" [ref=e157] [cursor=pointer]
+          - generic: Yes. It's part of host registration. Upload your own photo, keep your face clearly visible, and make sure it matches your registered identity information.
+        - generic [ref=e162]:
+          - button "How can hosts earn diamonds?" [ref=e163] [cursor=pointer]
+          - generic: Through mic-time rewards, the 7-Day Income Task, gift sharing, the Room Owner Bonus, game and top-up invitation commissions, host invitation bonuses, and ranking events.
+    - generic [ref=e170]:
+      - heading "Ready to Become a Kaya Chat Host" [level=2] [ref=e171]
+      - paragraph [ref=e172]: Set up your account, complete verification, and join an agency. Your first 7 days rewards are awaiting to be claimed.
+      - link "Become a Host" [ref=e173] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+    - dialog "Image Overview" [ref=e223]:
+      - generic [ref=e224]:
+        - button "Close image popup" [ref=e225] [cursor=pointer]: ×
+        - img "Become an Official Kaya Chat Host" [ref=e226]
+        - paragraph [ref=e227]: Become an Official Kaya Chat Host
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - link "Kaya Chat Homepage" [ref=e178] [cursor=pointer]:
+          - /url: "#hero"
+          - img "Kaya Chat" [ref=e179]
+        - generic [ref=e180]:
+          - heading "Quick Links" [level=4] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Home" [ref=e184] [cursor=pointer]:
+                - /url: "#hero"
+            - listitem [ref=e185]:
+              - link "Host" [ref=e186] [cursor=pointer]:
+                - /url: "#host-registration"
+            - listitem [ref=e187]:
+              - link "Agent" [ref=e188] [cursor=pointer]:
+                - /url: "#host-vs-agent"
+            - listitem [ref=e189]:
+              - link "Earning" [ref=e190] [cursor=pointer]:
+                - /url: "#earning-sources"
+            - listitem [ref=e191]:
+              - link "FAQ" [ref=e192] [cursor=pointer]:
+                - /url: "#faq"
+        - generic [ref=e193]:
+          - heading "Contact & Support" [level=4] [ref=e194]
+          - generic [ref=e195]:
+            - link "Instagram" [ref=e196] [cursor=pointer]:
+              - /url: https://www.instagram.com/kayalivechat
+            - link "TikTok" [ref=e199] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@kayalivechat
+            - link "Facebook" [ref=e202] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+            - link "Threads" [ref=e205] [cursor=pointer]:
+              - /url: https://www.threads.com/@kayalivechat
+            - link "YouTube" [ref=e208] [cursor=pointer]:
+              - /url: https://www.youtube.com/@kayalivechat
+            - link "WhatsApp" [ref=e211] [cursor=pointer]:
+              - /url: http://wa.me/6285285312276
+            - link "Telegram" [ref=e214] [cursor=pointer]:
+              - /url: https://t.me/KayaChatService
+      - generic [ref=e217]:
+        - paragraph [ref=e218]: © 2026 Kaya Chat. All rights reserved.
+        - button "Back to Top" [ref=e219] [cursor=pointer]

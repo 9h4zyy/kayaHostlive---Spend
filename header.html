@@ -1,0 +1,124 @@
+<!-- ==========================================================================
+     Kaya Host Live - Header Template (Elementor HTML Element Ready)
+     ========================================================================== -->
+<header class="kh-header-wrapper" id="site-header">
+  <nav class="kh-navbar" aria-label="Main Navigation">
+    <a href="#hero" class="kh-brand" aria-label="Kaya Chat Homepage">
+      <img 
+        src="https://kayahostlive.com/wp-content/uploads/2026/11/logo-kaya.webp" 
+        alt="Kaya Chat Logo" 
+        class="kh-brand-logo kh-clickable-img" 
+        width="44" 
+        height="44"
+        loading="eager"
+      />
+    </a>
+
+    <!-- Desktop Navigation Menu -->
+    <ul class="kh-nav-menu">
+      <li><a href="#hero" class="kh-nav-link">Home</a></li>
+      <li><a href="#host-registration" class="kh-nav-link">Host</a></li>
+      <li><a href="#host-vs-agent" class="kh-nav-link">Agent</a></li>
+      <li><a href="#earning-sources" class="kh-nav-link">Earning</a></li>
+      <li><a href="#contact" class="kh-nav-link">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Hamburger Toggle -->
+    <button class="kh-nav-toggle" id="khMobileToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Dropdown Navigation -->
+  <div class="kh-mobile-drawer" id="khMobileDrawer">
+    <a href="#hero" class="kh-nav-link">Home</a>
+    <a href="#host-registration" class="kh-nav-link">Host</a>
+    <a href="#host-vs-agent" class="kh-nav-link">Agent</a>
+    <a href="#earning-sources" class="kh-nav-link">Earning</a>
+    <a href="#contact" class="kh-nav-link">Contact</a>
+  </div>
+</header>
+
+<script>
+(function() {
+  const toggleBtn = document.getElementById('khMobileToggle');
+  const drawer = document.getElementById('khMobileDrawer');
+  const navLinks = document.querySelectorAll('.kh-nav-link');
+  const navbar = document.querySelector('.kh-navbar');
+
+  if (toggleBtn && drawer) {
+    toggleBtn.addEventListener('click', function() {
+      const isOpen = drawer.classList.toggle('open');
+      toggleBtn.classList.toggle('open');
+      toggleBtn.setAttribute('aria-expanded', isOpen);
+    });
+
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        drawer.classList.remove('open');
+        toggleBtn.classList.remove('open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  // Scroll effect on header
+  window.addEventListener('scroll', function() {
+    if (navbar) {
+      if (window.scrollY > 30) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    }
+  });
+
+  // Lightbox overview support for header logo
+  function openLightbox(src, alt) {
+    let modal = document.getElementById('khLightboxModal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.className = 'kh-lightbox-modal';
+      modal.id = 'khLightboxModal';
+      modal.setAttribute('role', 'dialog');
+      modal.setAttribute('aria-modal', 'true');
+      modal.setAttribute('aria-label', 'Image Overview');
+      modal.innerHTML = '<div class="kh-lightbox-container"><button class="kh-lightbox-close" id="khLightboxClose" type="button" aria-label="Close image popup">&times;</button><img src="" alt="" class="kh-lightbox-image" id="khLightboxImg" /><p class="kh-lightbox-caption" id="khLightboxCaption"></p></div>';
+      document.body.appendChild(modal);
+      modal.querySelector('#khLightboxClose').addEventListener('click', function() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+    }
+    const modalImg = modal.querySelector('#khLightboxImg');
+    const modalCaption = modal.querySelector('#khLightboxCaption');
+    if (modalImg) { modalImg.src = src; modalImg.alt = alt || ''; }
+    if (modalCaption) { modalCaption.textContent = alt || ''; }
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  document.querySelectorAll('.kh-header-wrapper .kh-clickable-img').forEach(function(img) {
+    img.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openLightbox(this.src, this.alt);
+    });
+  });
+})();
+</script>
+
